@@ -1,0 +1,162 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.button1{
+  padding: 5px;
+  font-size: 16px;
+  background-color: floralwhite;
+  border-radius: 5px;
+  margin: 0px 5px;
+  border: 2px solid #854c13;
+}
+.button1:hover {
+  background-color: #854c13;
+  color: floralwhite;
+}
+.hidden {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button:hover {
+  cursor: pointer;
+}
+.shadow {
+  box-shadow: 1px 2px 5px 0 rgb(0 0 0 / 30%);
+}
+.container {
+  margin: auto;
+  width: 1000px;
+}
+header>div {
+  margin-top: 10px;
+  background-color: peru;
+  border: 2px solid #854c13;
+  padding: 10px 8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: ivory;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header form {
+  width: 50%;
+  display: flex;
+}
+header input {
+  padding: 8px;
+  font-size: 18px;
+}
+header input[type='text']{
+  border-radius: 10px;
+  width: 80%;
+  outline: none;
+  border: 1.5px solid peru;
+}
+#search-button{
+  width: 50px;
+  height: 50px;
+  background: url(/images/search.svg);
+  padding-top: 5px;
+  background-repeat: no-repeat;
+  background-size: 49px 49px;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+}
+#search-button:hover{
+  background: url(/images/search-hover.svg);
+  background-repeat: no-repeat;
+  background-size: 49px 49px;
+  cursor: pointer;
+}
+
+header input[type='text']:focus{
+  border: 1.5px solid #854c13;
+}
+nav {
+  padding: 8px;
+  background-color: #854c13;
+}
+nav * {
+  padding: 5px;
+  font-size: 16px;
+  background-color: floralwhite;
+  border-radius: 5px;
+  border: none;
+}
+nav *:hover {
+  background-color: white;
+}
+.tambah {
+  margin: 10px 0px;
+  padding: 5px;
+}
+.tambah form {
+  display: flex;
+  flex-flow: column;
+}
+.tambah form * {
+  font-size: 18px;
+}
+.tambah form input{
+  padding: 10px;
+}
+.tambah form input[type='submit']{
+  width: 10%;
+  margin-top: 5px;
+  align-self: flex-end;
+}
+section h2 {
+  margin: 10px 5px;
+}
+.books {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+}
+.book {
+  border: 1.5px solid #854c13;
+  border-radius: 5px;
+  padding: 10px 8px;
+  width: 49%;
+  margin-left: 1%;
+  margin-bottom: 8px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.detail * {
+  margin: 10px 0;
+}
+.detail h3 {
+  padding-left: 8px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+.book p {
+  font-size: 18px;
+}
+.book button {
+  font-size: 16px;
+  padding: 5px;
+}
+div.nilai-tambahan {
+  background-color: bisque;
+  text-align: center;
+  font-weight: 500;
+  border: 1.5px solid #854c13;
+  width: 280px;
+  font-size: 18px;
+  padding: 10px 2px;
+  position: fixed;
+  bottom: 25px;
+  right: 40px;
+}
