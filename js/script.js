@@ -169,6 +169,7 @@ function hapusBook(id) {
   
   localStorage.setItem(KEY, JSON.stringify(books));
   document.dispatchEvent(new Event(RENDER));
+  tambahNilai();
 }
 
 function doneIsCompleted(id) {
@@ -194,4 +195,10 @@ function filterBooks(){
   return books.filter((book) => {
     return book.title.toLowerCase().indexOf(searchValue) !== -1 ? true : false;
   })
+}
+
+function tambahNilai() {
+  const tambahNilai = document.getElementsByClassName('nilai-tambahan')[0];
+  tambahNilai.style = 'display: block';
+  setTimeout(() => tambahNilai.style ='', 3000);
 }

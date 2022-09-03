@@ -150,6 +150,7 @@ section h2 {
 }
 div.nilai-tambahan {
   background-color: bisque;
+  display: none;
   text-align: center;
   font-weight: 500;
   border: 1.5px solid #854c13;
